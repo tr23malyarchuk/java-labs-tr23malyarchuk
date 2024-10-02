@@ -1,3 +1,6 @@
+// Сформувати масив b, елементами якого є значення індексів елементів
+// вихідного одновимірного масиву a в порядку убування значень елементів.
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;

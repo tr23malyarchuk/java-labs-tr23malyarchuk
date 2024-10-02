@@ -1,3 +1,6 @@
+// Визначити абсолютне значення найменшої різниці між двома
+// будь-якими значеннями елементів вихідного одновимірного масиву a.
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;

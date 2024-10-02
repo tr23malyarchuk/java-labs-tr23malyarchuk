@@ -1,3 +1,6 @@
+// Визначити кількість рівних елементів і їх індекси для двох вихідних
+// одновимірних масивів a і b.
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
