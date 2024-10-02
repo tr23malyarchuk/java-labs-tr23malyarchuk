@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -5,11 +6,16 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
 
 class Task7Test {
+    private ArrayList<Integer> testValues;
+
+    @BeforeEach
+    public void testPreparation() {
+        // Arrange - підготовка к тесту
+        testValues = new ArrayList<>();
+    }
+
     @Test
     public void testFindLowestDifference1() {
-        // Arrange - підготовка к тесту
-        ArrayList<Integer> testValues = new ArrayList<>();
-
         // Act - тестування функціоналу
         testValues.add(1);
         testValues.add(5);
@@ -21,7 +27,6 @@ class Task7Test {
 
     @Test
     public void testFindLowestDifference2() {
-        ArrayList<Integer> testValues = new ArrayList<>();
         testValues.add(10);
         testValues.add(-5);
         testValues.add(0);
@@ -30,7 +35,6 @@ class Task7Test {
 
     @Test
     public void testFindLowestDifference3() {
-        ArrayList<Integer> testValues = new ArrayList<>();
         testValues.add(-11);
         testValues.add(-7);
         testValues.add(5);

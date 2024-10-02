@@ -34,7 +34,6 @@ class Task17Test {
 
         int[] result = Task17.calculateDifferences(a);
 
-        // Assert - перевірка результату
         assertArrayEquals(b, result);
     }
 
